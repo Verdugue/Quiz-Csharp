@@ -1,0 +1,22 @@
+@if (Model.CurrentQuestion != null)
+{
+    <h2>@Model.CurrentQuestion.QuestionText</h2>
+
+    <form method="post">
+        @foreach (var answer in Model.CurrentQuestion.Answers)
+        {
+            <div>
+                <input type="radio" name="selectedAnswer" value="@answer.Text" required />
+                <label>@answer.Text</label>
+            </div>
+        }
+        <input type="hidden" name="currentQuestionIndex" value="@Model.CurrentQuestionIndex" />
+        <button type="submit">Soumettre</button>
+    </form>
+
+    <h3>Score: @Model.Score</h3>
+}
+else
+{
+    <h3>Quiz terminé ! Votre score est @Model.Score sur @Model.TotalQuestions.</h3>
+}

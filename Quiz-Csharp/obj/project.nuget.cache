@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+0A8YHFveeE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\perio\\OneDrive\\Documents\\GitHub\\Quiz-Csharp\\Quiz-Csharp\\Quiz-Csharp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\perio\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

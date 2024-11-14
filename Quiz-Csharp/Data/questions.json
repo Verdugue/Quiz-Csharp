@@ -1,0 +1,26 @@
+{
+    "Questions": [
+        {
+            "QuestionText": "Quelle est la capitale de la France ?",
+            "CorrectAnswer": "Paris",
+            "Answers": [
+                { "Text": "Paris" },
+                { "Text": "Londres" },
+                { "Text": "Berlin" },
+                { "Text": "Madrid" }
+            ],
+            "Difficulty": "facile"
+        },
+        {
+            "QuestionText": "Quel est le plus grand océan du monde ?",
+            "CorrectAnswer": "Océan Pacifique",
+            "Answers": [
+                { "Text": "Océan Atlantique" },
+                { "Text": "Océan Indien" },
+                { "Text": "Océan Pacifique" },
+                { "Text": "Océan Arctique" }
+            ],
+            "Difficulty": "difficile"
+        }
+    ]
+}

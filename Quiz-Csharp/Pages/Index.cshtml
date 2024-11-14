@@ -1,0 +1,18 @@
+﻿@page
+@model Quiz_Csharp.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Bienvenue au Quiz</h1>
+<p>Choisissez une difficulté :</p>
+
+<form method="get" action="/Quiz">
+    <select name="difficulty">
+        <option value="easy">Facile</option>
+        <option value="medium">Moyen</option>
+        <option value="hard">Difficile</option>
+    </select>
+    <button type="submit">Soumettre</button>
+</form>
+
